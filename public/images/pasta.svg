@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-label="Pasta bowl with marinara and basil">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#271b12"/><stop offset="0.52" stop-color="#d7792f"/><stop offset="1" stop-color="#f6d7a0"/></linearGradient>
+    <radialGradient id="glow" cx="58%" cy="40%" r="55%"><stop offset="0" stop-color="#fff8ed" stop-opacity=".72"/><stop offset=".42" stop-color="#fff8ed" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#000" flood-opacity=".36"/></filter>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#bg)"/>
+  <rect width="1400" height="1000" fill="url(#glow)"/>
+  <g opacity=".22" filter="url(#grain)"><rect width="1400" height="1000" fill="#fff"/></g>
+  <ellipse cx="700" cy="720" rx="470" ry="110" fill="#130c09" opacity=".33"/>
+  <g filter="url(#shadow)">
+    <circle cx="700" cy="505" r="315" fill="#f3c368"/>
+    <circle cx="700" cy="505" r="272" fill="#b32222" opacity=".92"/>
+    <circle cx="700" cy="505" r="232" fill="#f1d08b" opacity=".96"/>
+    <path d="M520 310 C710 230 895 318 942 488 C792 456 650 530 534 685 C435 578 410 408 520 310Z" fill="#f6cf7b"/>
+    <g fill="#8b1d1d"><circle cx="610" cy="430" r="38"/><circle cx="775" cy="385" r="34"/><circle cx="845" cy="548" r="42"/><circle cx="660" cy="610" r="36"/><circle cx="540" cy="535" r="30"/></g>
+    <g fill="#31563b"><ellipse cx="725" cy="465" rx="18" ry="42" transform="rotate(38 725 465)"/><ellipse cx="590" cy="585" rx="16" ry="36" transform="rotate(-30 590 585)"/><ellipse cx="820" cy="620" rx="14" ry="34" transform="rotate(20 820 620)"/></g>
+    <path d="M454 298 C605 158 884 174 1035 360" fill="none" stroke="#fff8ed" stroke-width="16" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <g opacity=".75"><rect x="76" y="74" width="310" height="54" rx="27" fill="#000" opacity=".28"/><text x="108" y="111" fill="#fff8ed" font-family="Georgia,serif" font-size="28" font-weight="700">Panino’s original image</text></g>
+</svg>
